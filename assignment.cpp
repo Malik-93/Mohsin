@@ -3,11 +3,12 @@
 using namespace std;
 int main() 
 {
-int a = 12345;
-float b = 1.546;
-char name[] = "Kashi";
-cout <<"This text for assignment :"<< endl;
-cout <<"Integer Value :" << a << endl;
-cout <<"Float Value :" << b << endl;
-cout <<"Character Value :" << name << endl;
+float rad, vol, area, circum;
+cout <<"Please enter radius of sphere :";
+cin>>rad;
+area = 4*3.14*rad*rad;
+circum = (4/3)*3.14*rad*rad*rad;
+cout <<"\n Area of sphere is :"<<area<<endl;
+cout<<"Circumference and Volume of sphere is:"<<circum<<endl;
+return 0;
 }
